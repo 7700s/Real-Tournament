@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.38794604, g: 0.7272919, b: 0.7332165, a: 1}
+  m_IndirectSpecularColor: {r: 0.38825688, g: 0.7281151, b: 0.73413026, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -612,6 +612,7 @@ MonoBehaviour:
       m_Calls: []
   damageEffect: {fileID: 144972412703405366, guid: ea2a816ea2babc44d9f2c14ac84c1776,
     type: 3}
+  deathEffect: {fileID: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1385,6 +1386,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   damageEffect: {fileID: 0}
+  deathEffect: {fileID: 0}
 --- !u!1 &2096758027
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,7 +1488,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 6.1542, y: 6.1542, z: 6.1542}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}

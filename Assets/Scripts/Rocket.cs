@@ -20,7 +20,9 @@ public class Rocket : MonoBehaviour
 
 	void OnCollisionEnter(Collision other)
 	{
-		if (bounces == 0)
+        if (other.gameObject.name.Contains("First Person Controller")) return;
+
+        if (bounces == 0)
 		{
 			Destroy(gameObject);
 			Instantiate(explosionPrefab, transform.position, Quaternion.identity);
