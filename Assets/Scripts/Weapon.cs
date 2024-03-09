@@ -16,7 +16,7 @@ public class Weapon : MonoBehaviour
 	public bool isAutoFire;
 	public float fireInterval = 0.5f;
 	public float fireCooldown;
-	public float recoilAngle = 5f;
+	public float recoilAngle = 0f;
 	public float pelletsCount = 1;
 
 	void Update()
